@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffe Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="stylee.css">
+</head>
+<body>
+
+<header class="header">
+
+    <a href="#" class="logo">
+        <img src="pictures/logoo.jpeg">
+    </a>
+
+    <nav class="navbar">
+       
+        <a href="#about">about</a>
+        <a href="#menu">menu</a>
+        <a href="#products">products</a>
+        <a href="#review">review</a>
+    </nav>
+
+    <div class="icons">
+    
+        <div class="fas fa-list" id="list-btn" onclick="oditems()"> <button type="" ></button></div>
+        <div class="fas fa-receipt" id="receipt-btn"></div>
+    </div>
+ 
+    
+
+</header>
+
+<section class="home" id="home">
+
+    <div class="content">
+        
+        <h3>Fresh coffee in the morning</h3>
+        <p>
+            People most commonly drink coffee to increase mental alertness. Coffee is also used for diabetes, cancer, heart disease, high blood pressure, dementia, and many other conditions, but there is no good scientific evidence to support most of these uses.
+        </p>
+        
+        <button class="btn">get yours now</button>
+    </div>
+
+</section>
+
+
+<section class="about" id="about">
+
+    <h1 class="heading"> <span>about</span> us </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="pictures/coffe1.jpeg" alt="">
+        </div>
+
+        <div class="content">
+            <h3>what makes our coffee special?</h3>
+            <p>You'll savour something like no other with it's rich flavour notes and strong aroma, no matter what your order is. This is because the industry pays particular attention to the quality of the coffee beans, the use of proper tools and machines, and the right preparation techniques.</p>
+            <p>
+                The temperature of your water is what will matter most in determining a coffee's flavor: Pour at a lower temperature (185 degrees) and you'll extract fewer of the bean's nascent flavor notes and end with a more bitter taste; pour at a higher temperature (205 degrees), and you'll discover a coffee that's extracted more ...</p>
+            <a href="#" class="btn">learn more</a>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="menu" id="menu">
+
+    <h1 class="heading"> our <span>menu</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="pictures/cof1.jpeg" alt="">
+            <h3>Espresso <small> with Milk</small></h3>
+            <div class="price">RS.60</div>
+            <button class="btn" id="order" onclick="ordered()" >Order this</button>
+            
+        </div>
+
+        <div class="box">
+            <img src="pictures/cof2.jpeg" alt="">
+            <h3>Espresso <small> with Cream</small></h3>
+            <div class="price">RS.75</div>
+            <button class="btn" id="order" onclick="ordered()" >Order this</button>
+        </div>
+
+        <div class="box">
+            <img src="pictures/cof3.jpeg" alt="">
+            <h3>Cuppucino <small> with Milk</small></h3>
+            <div class="price">RS.80</div>
+            <button class="btn" id="order" onclick="ordered()">Order this</button>
+        </div>
+
+        <div class="box">
+            <img src="pictures/cof4.jpeg" alt="">
+            <h3>Cuppucino<small> with Cream</small></h3>
+            <div class="price">RS.90 </div>
+            <button class="btn"id="order" onclick="ordered()">Order this</button>
+        </div>
+
+        <div class="box">
+            <img src="pictures/cof5.jpeg" alt="">
+            <h3>Latte<samll> with Milk</samll></h3>
+            <div class="price">RS.100</div>
+            <button class="btn" id="order" onclick="ordered()">Order this</button>
+        </div>
+
+        <div class="box">
+            <img src="pictures/cof6.jpeg" alt="">
+            <h3>Latte<small> with Cream</small></h3>
+            <div class="price">RS.125</div>
+            <button class="btn" id="order" onclick="ordered()">Order this</button>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<section class="products" id="products">
+
+    <h1 class="heading"> our  Premium<span>products</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="icons">
+                
+                
+            </div>
+            <div class="image">
+                <img src="pictures/coffe2.jpeg" alt="">
+            </div>
+            <div class="content">
+                <h3>Espresso <small> with Latte</small></h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">Rs.100</div>
+            </div>
+            <button class="btn" id="order" onclick="ordered()">Order this</button> 
+        </div>
+
+        <div class="box">
+            
+            <div class="image">
+                <img src="pictures/cof7.jpeg" alt="">
+            </div>
+            <div class="content">
+                <h3>Cuppucino <small> with Latte</small></h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">Rs.125</div>
+            </div>
+            <button class="btn" id="order" onclick="ordered()">Order this</button>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                
+            </div>
+            <div class="image">
+                <img src="pictures/cof8.jpeg" alt="">
+            </div>
+            <div class="content">
+                <h3>latte  <small> Latte Premium</small></h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">Rs.150</div>
+            </div>
+            <button class="btn" id="order" onclick="ordered()">Order this</button>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<section class="review" id="review">
+
+    <h1 class="heading"> customer's <span>review</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="pictures/satya.jpg" width="0px" alt="" class="quote">
+            <p> I really like the atmosphere, good coffee, and nice interior. This is a good place to study or chill with friends. The drinks and foods were all tasty and worthwhile. If you’re up for a fresh place with beautiful architecture then this is a must to visit.</p>
+              <img src="pictures/satya.jpg" class="user" alt="">
+            <h3>Satya.Segu</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/quote-img.png" alt="" class="quote">
+            <p> This place is amazing! They offered the best coffee and showed the best attitude to its costumers. Internet connection is very fast and is unlimited as well.
+                 This place is indeed perfect for studying and chilling out. It was very quiet and air-conditioned. i was addicted to this environment.I just want to keep coming back to this place. Thank you!</p>
+              <img src="pictures/likhitha.jpg" class="user" alt="">
+            <h3>Likhitha.Mula</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+        
+        <div class="box">
+            <img src="images/quote-img.png" alt="" class="quote">
+            <p>This coffee shop is my favorite place to hang and do my works. I really like this place because it has a good ambiance and not too crowded as well. The coffee and pastries that they had were so delicious. The barista was so friendly and pleasant to talk with. One thing that I got fascinated by this place. They had the most affordable and delicious coffee in town.</p>
+              <img src="pictures/chikko.jpg" class="user" alt="">
+            <h3>Rahiman.Sk</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> <span>contact</span> us </h1>
+
+    <div class="row">
+
+          <form action="">
+            <h3>get in touch</h3>
+            <div class="inputBox">
+                <span class="fas fa-user"></span>
+                <input type="text" placeholder="name">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-envelope"></span>
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-phone"></span>
+                <input type="tel10" placeholder="number" >
+            </div>
+            <input type="submit" value="contact now" class="btn">
+        </form>
+
+    </div>
+
+</section>
+
+
+<section class="footer">
+
+    <div class="share">
+        <a href="wa.me/ 7730875130" class="fab fa-whatsapp"></a>
+        <a href="https://twitter.com/Satya30757996?t=ioq_KoU9P8SKe4xq4wxyFQ&s=09" class="fab fa-twitter"></a>
+        <a href="https://www.instagram.com/satya.sg5/?igshid=YmMyMTA2M2Y%3D" class="fab fa-instagram"></a>
+        <a href="https://www.linkedin.com/in/satya-segu-8563a7226" class="fab fa-linkedin"></a>
+       
+    </div>
+    
+
+   
+
+    <div class="credit">created by <span>Satya.Segu</span> | all rights reserved</div>
+
+</section>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>

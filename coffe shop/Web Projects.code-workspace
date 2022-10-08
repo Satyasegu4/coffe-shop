@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../Desktop/react/my-app"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Web Projects"
+	}
+}
